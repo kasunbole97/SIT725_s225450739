@@ -1,0 +1,21 @@
+{
+  "name": "3.2p",
+  "version": "1.0.0",
+  "description": "TasteTrail Recipe Explorer created for SIT725 Task 3.2P",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "materialize",
+    "javascript"
+  ],
+  "author": "Kasun Wimalasuriya",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

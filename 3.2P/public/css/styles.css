@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav,
+.page-footer {
+    background-color: #455a64;
+}
+
+nav .brand-logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.hero-section {
+    padding: 75px 20px;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(55, 71, 79, 0.96),
+            rgba(96, 125, 139, 0.9)
+        );
+    color: white;
+}
+
+.hero-section h1 {
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.hero-section .btn-large {
+    margin-top: 20px;
+    background-color: #ff7043;
+}
+
+.recipe-area {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading h2 {
+    font-size: 2.4rem;
+    color: #37474f;
+}
+
+.recipe-card {
+    height: 100%;
+}
+
+.recipe-card .card-image img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.recipe-card .card-content {
+    min-height: 165px;
+}
+
+.recipe-card .card-title {
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.recipe-meta {
+    margin-top: 15px;
+    color: #546e7a;
+}
+
+.recipe-meta i {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.error-message {
+    padding: 20px;
+    color: #b71c1c;
+    background-color: #ffebee;
+    border-radius: 6px;
+}
+
+.footer-row {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    nav .brand-logo {
+        font-size: 1.4rem;
+    }
+
+    .hero-section {
+        padding: 50px 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-heading h2 {
+        font-size: 2rem;
+    }
+}
