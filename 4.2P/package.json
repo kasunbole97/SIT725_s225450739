@@ -1,0 +1,25 @@
+{
+  "name": "4.2p",
+  "version": "1.0.0",
+  "description": "TasteTrail Recipe Explorer with MongoDB integration for SIT725 Task 4.2P",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "materialize",
+    "javascript"
+  ],
+  "author": "Kasun Wimalasuriya",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.9.1"
+  }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#b3e5fc"/>
+  <ellipse cx="400" cy="325" rx="210" ry="70" fill="#ffffff"/>
+
+  <ellipse cx="400" cy="285" rx="145" ry="42" fill="#ffcc80"/>
+  <ellipse cx="400" cy="245" rx="145" ry="42" fill="#ffb74d"/>
+  <ellipse cx="400" cy="205" rx="145" ry="42" fill="#ffa726"/>
+
+  <circle cx="350" cy="175" r="18" fill="#7e57c2"/>
+  <circle cx="400" cy="165" r="18" fill="#ec407a"/>
+  <circle cx="450" cy="180" r="18" fill="#5c6bc0"/>
+
+  <text
+    x="400"
+    y="450"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="40"
+    fill="#37474f"
+  >
+    Berry Pancakes
+  </text>
+</svg>
